@@ -1,0 +1,21 @@
+{
+  "name": "twitter_bro",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.51.1",
+    "date-fns": "^4.1.0",
+    "nodemon": "^3.1.9",
+    "playwright": "^1.51.1"
+  }
+}
